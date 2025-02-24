@@ -17,7 +17,7 @@ public class ContaBancaria {
     public void depositar(double valor) {
         // Implemente aqui
         try{
-            this.saldo = valor;
+            this.saldo += valor;
             return;
         }
         catch(InputMismatchException e){
